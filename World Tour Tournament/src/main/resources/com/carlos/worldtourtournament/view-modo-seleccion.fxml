@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.media.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="647.0" prefWidth="1150.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.carlos.worldtourtournament.ControllerModoSeleccion">
+   <children>
+      <MediaView fx:id="mediaView" />
+      <ImageView fx:id="imageView1" fitHeight="150.0" fitWidth="200.0" layoutX="475.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../select_historia.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imageView2" fitHeight="150.0" fitWidth="200.0" layoutX="475.0" layoutY="267.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../select_arcade.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="528.0" layoutY="213.0" style="-fx-font-weight: bold;" text="*Próximamente*" textFill="RED" />
+
+      <!-- Botones invisibles -->
+      <Button fx:id="button1" layoutX="513.0" layoutY="173.0" opacity="0.0" prefHeight="56.0" prefWidth="126.0" />
+      <Button fx:id="button2" layoutX="517.0" layoutY="296.0" opacity="0.0" prefHeight="41.0" prefWidth="114.0" />
+   </children>
+</Pane>
